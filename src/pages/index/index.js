@@ -12,6 +12,9 @@ class IndexPage extends React.Component{
   }
    doDemo(params) {
     console.log('ddd')
+    this.setState({
+      isHot : false
+    })
   }
   render(){
     console.log(this)
