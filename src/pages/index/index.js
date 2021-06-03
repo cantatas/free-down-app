@@ -3,26 +3,17 @@ import React from 'react';
 import './index.css';
 
 class IndexPage extends React.Component{
-  constructor(props){
-    super(props)
-    this.state = {
-      isHot : true
-    }
-    this.doDemo = this.doDemo.bind(this)
-  }
-   doDemo(params) {
-    console.log('ddd')
-    this.setState({
-      isHot : false
-    })
+  state = {
+
   }
   render(){
-    console.log(this)
     return (
-      <div onClick={this.doDemo} className="index-page">
-        我是index类组件{this.state.isHot ? '1':'222'}
+      <div onClick={this.goto} className="index-page">
       </div>
     ) 
+  }
+  goto = () => {
+    
   }
 }
 
