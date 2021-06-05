@@ -1,0 +1,42 @@
+.container-component {
+  position: relative;
+  top: 60px;
+  box-sizing: border-box;
+  padding-left: 220px;
+  overflow: hidden;
+  padding-right: 390px;
+
+  .content {
+
+    position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    padding: 0 0 75px;
+
+    section {
+
+      padding: 30px;
+      overflow: hidden;
+    }
+
+    .card {
+
+      margin-bottom: 24px;
+      padding: 24px;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 12px #ebedf0;
+      h3{
+        margin-bottom: 16px;
+        font-weight: 600;
+        font-size: 18px;
+      }
+      p{
+        color: #34495e;
+        font-size: 15px;
+        line-height: 26px;
+      }
+    }
+  }
+}

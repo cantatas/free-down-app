@@ -1,0 +1,37 @@
+.nav-component {
+  position: fixed;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  min-width: 220px;
+  max-width: 220px;
+  padding: 24px 0 72px;
+  overflow-y: scroll;
+  background-color: #fff;
+
+  .nav-group {
+    margin-bottom: 16px;
+
+    .nav-title {
+      padding: 8px 0 8px 30px;
+      color: #455a64;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 28px;
+    }
+
+    .nav-item {
+      a {
+        display: block;
+        margin: 0;
+        padding: 8px 0 8px 30px;
+        color: #455a64;
+        font-size: 14px;
+        line-height: 28px;
+        -webkit-transition: color 0.2s;
+        transition: color 0.2s;
+      }
+    }
+  }
+}

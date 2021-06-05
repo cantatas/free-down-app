@@ -1,0 +1,14 @@
+.header-component{
+  position: fixed;
+  width: 100%;
+  color:#fff;
+  background-color: #001938;
+  -webkit-user-select: none;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: 0 30px;
+  line-height: 60px;
+  z-index: 99;
+}

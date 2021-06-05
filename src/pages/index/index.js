@@ -2,28 +2,25 @@
 import React from 'react';
 import './index.scss';
 
+import Header from './components/header'
+import Nav from './components/nav'
+import Container from './components/container'
+import Simulator from './components/simulator'
+
 class IndexPage extends React.Component{
   state = {
 
   }
   render(){
     return (
-      <div onClick={this.goto} className="index-page">
-        我是index函数组件 <span>11</span>
+      <div className="page index-page">
+        <Header />
+        <Nav />
+        <Container />
+        <Simulator />
       </div>
     ) 
   }
-  goto = () => {
-    console.log('11 ----------------> ',11223)
-  }
 }
-
-// function IndexPage() {
-//   return (
-//     <div className="index-page">
-//       我是index函数组件
-//     </div>
-//   );
-// }
 
 export default IndexPage;
