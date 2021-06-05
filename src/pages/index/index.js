@@ -1,6 +1,6 @@
 
 import React from 'react';
-import './index.css';
+import './index.scss';
 
 class IndexPage extends React.Component{
   state = {
@@ -9,11 +9,12 @@ class IndexPage extends React.Component{
   render(){
     return (
       <div onClick={this.goto} className="index-page">
+        我是index函数组件 <span>11</span>
       </div>
     ) 
   }
   goto = () => {
-    
+    console.log('11 ----------------> ',11223)
   }
 }
 
